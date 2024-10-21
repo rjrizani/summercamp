@@ -1,0 +1,45 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Sign Up Form</title>
+        <link rel="stylesheet" href="https://codepen.io/gymratpacks/pen/VKzBEp#0">
+        <link href='https://fonts.googleapis.com/css?family=Nunito:400,300' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    </head>
+    <body>
+      <div class="row">
+    <div class="col-md-12">
+      <form action="/" method="post">
+        <div class="row">
+
+        <h1> Summer Camp Registration Form </h1>
+
+        <fieldset>
+
+          <legend><span class="number">1</span> Personal Information</legend>
+
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required>
+
+          <label for="dob">Date of Birth:</label>
+          <input type="date" id="dob" name="dob" placeholder="" required>
+
+          <label for="age">Age:</label>
+          <input type="text" id="age" name="age" required>
+
+            <label>Gender:</label>
+          <input type="radio" id="male" value="M" name="gender"><label for="male" class="light">Male</label><br>
+          <input type="radio" id="female" value="F" name="gender"><label for="female" class="light">Female</label>
+
+        </fieldset>
+
+        <button type="submit">Register</button>
+               </div>
+      </form>
+     </div>
+      </div>
+    </body>
+</html>
+
+<!--------- https://codepen.io/gymratpacks/pen/VKzBEp ------------>
